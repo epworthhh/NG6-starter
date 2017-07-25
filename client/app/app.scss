@@ -1,7 +1,13 @@
 @import "common/common";
 
 .app {
-  height: 100%;
-  background-color: $lightBgColor;
-}
+  // height: 100%;
+  // background-color: $lightBgColor;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 
+  .app-container {
+    flex: 1;
+  }
+}
